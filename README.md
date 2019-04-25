@@ -1,6 +1,8 @@
 # Oracle Apex OpenStreetMap Plugin
 Oracle Apex Plugin for OpenStreetMap maps 
 
+![GitHub Logo](/img/scr.png)
+
 ## Assets
 
 ### JavaScript
