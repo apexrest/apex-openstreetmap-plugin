@@ -1,0 +1,33 @@
+{
+  "name" : "OpenStreetMap Plugin",
+  "version" : "1.0",
+  "description" : "Oracle Apex Plugin for OpenStreetMap maps",
+  "keywords" : ["maps", "map", "openstreetmap", "leaflet"],
+  "homepage" : "https://github.com/apexrest/apex-openstreetmap-plugin",
+  "bugs" : {
+    "url" : "https://github.com/apexrest/apex-openstreetmap-plugin/issues",
+    "email" : "dmytro.zarezenko@gmail.com"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Dmytro Zarezenko",
+    "email" : "dmytro.zarezenko@gmail.com",
+    "url" : "https://github.com/dzarezenko"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/apexrest/apex-openstreetmap-plugin.git"
+  },
+ "oracle" : {
+    "versions" : ["11.2.0.1", "11.2.0.4", "12.1.0.1", "12.1.0.2", "12.2.0.1", "18.1"],
+    "apex" : {
+      "versions" : ["18.1.0", "18.2.0", "19.1.0"],
+      "plugin" : {
+        "internalName" : "REST.APEX.OSM_PLUGIN",
+        "type" : "region",
+        "demo" : "https://github.com/apexrest/apex-openstreetmap-plugin",
+        "previewImage" : "https://github.com/apexrest/apex-openstreetmap-plugin/raw/master/img/scr.png"
+      }
+    }
+  }
+}
