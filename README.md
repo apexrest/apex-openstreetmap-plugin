@@ -1,5 +1,5 @@
-# Oracle Apex OpenStreetMap Plugin
-Oracle Apex Plugin for OpenStreetMap maps 
+# Oracle APEX OpenStreetMap Plugin
+Oracle APEX Plugin for OpenStreetMap maps 
 
 ![GitHub Logo](/img/scr.png)
 
@@ -7,7 +7,7 @@ Oracle Apex Plugin for OpenStreetMap maps
 
 ### JavaScript
 
-This plugin uses [Leaflet 1.4.0](https://leafletjs.com/) lib for interactive maps. This lib is integrated into plugin as two files:
+This plugin uses [Leaflet 1.4.0](https://leafletjs.com/) lib for interactive maps. This lib is integrated into the plugin as two files:
 
 ```
 assets/js/leaflet/leaflet.js
@@ -22,7 +22,7 @@ assets/js/map.js
 
 ### Map markers
 
-To support different markers colors the [leaflet-color-markers](https://github.com/pointhi/leaflet-color-markers) was integrated to the plugin:
+To support different markers colors the [leaflet-color-markers](https://github.com/pointhi/leaflet-color-markers) were integrated to the plugin:
 
 ```
 assets/markers/
@@ -59,7 +59,7 @@ The `Source` attribute should contain PL/SQL request or procedure call that retu
   "polygons": [
     {
       "color": "blue",
-      "text": "Blue marker text",
+      "text": "Blue polygon text",
       "points": [
         [50.45, 30.523333],
         [50.4, 30.53],
@@ -68,7 +68,7 @@ The `Source` attribute should contain PL/SQL request or procedure call that retu
     },
     {
       "color": "red",
-      "text": "Red marker text",
+      "text": "Red polygon text",
       "points": [
         [50.55, 30.523333],
         [50.5, 30.53],
@@ -77,7 +77,7 @@ The `Source` attribute should contain PL/SQL request or procedure call that retu
     },
     {
       "color": "green",
-      "text": "Green marker text",
+      "text": "Green polygon text",
       "points": [
         [50.45, 30.623333],
         [50.4, 30.63],
