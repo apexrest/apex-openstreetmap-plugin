@@ -14,7 +14,7 @@ assets/js/leaflet/leaflet.js
 assets/js/leaflet/leaflet.css
 ```
 
-The main map rendering script [map.js](src/js/map.js) is integrated to the plugin as well.
+The main map rendering script [map.js](src/js/map.js) is integrated into the plugin as well.
 
 ```
 assets/js/map.js
@@ -22,7 +22,7 @@ assets/js/map.js
 
 ### Map markers
 
-To support different markers colors the [leaflet-color-markers](https://github.com/pointhi/leaflet-color-markers) were integrated to the plugin:
+To support different color markers the [leaflet-color-markers](https://github.com/pointhi/leaflet-color-markers) were integrated into the plugin:
 
 ```
 assets/markers/
