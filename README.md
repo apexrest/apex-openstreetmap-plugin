@@ -37,46 +37,46 @@ The `Source` attribute should contain PL/SQL request or procedure call that retu
 
 ```json
 {
-  markers: [
+  "markers": [
     {
-      point: [50.45, 30.523333],
-      color: 'red',
-      text: "Red marker text"
+      "point": [50.45, 30.523333],
+      "color": "red",
+      "text": "Red marker text"
     },
     {
-      point: [50.4, 30.53],
-      color: 'blue',
-      text: "Blue marker text"
+      "point": [50.4, 30.53],
+      "color": "blue",
+      "text": "Blue marker text"
     },
     {
-      point: [50.41, 30.5],
-      color: 'green',
-      text: "Green marker text"
+      "point": [50.41, 30.5],
+      "color": "green",
+      "text": "Green marker text"
     }
   ],
-  polygons: [
+  "polygons": [
     {
-      color: 'blue',
-      text: "Blue marker text",
-      points: [
+      "color": "blue",
+      "text": "Blue marker text",
+      "points": [
         [50.45, 30.523333],
         [50.4, 30.53],
         [50.41, 30.5],
       ]
     },
     {
-      color: 'red',
-      text: "Red marker text",
-      points: [
+      "color": "red",
+      "text": "Red marker text",
+      "points": [
         [50.55, 30.523333],
         [50.5, 30.53],
         [50.51, 30.5],
       ]
     },
     {
-      color: 'green',
-      text: "Green marker text",
-      points: [
+      "color": "green",
+      "text": "Green marker text",
+      "points": [
         [50.45, 30.623333],
         [50.4, 30.63],
         [50.41, 30.6],
